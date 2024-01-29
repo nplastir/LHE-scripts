@@ -34,6 +34,6 @@ which will create a directory (if does not already exist) called ```example``` w
 ## Batch conversion
 
 If you have multiple files that you want to convert into ROOT files:
-- Create a folder where you will transfer all the ```.lhe``` files that you want to process 
-- Specify the path to the directory containing your LHE files that you have created inside the ```batch_convert.sh``` script and run it ```./batch_convert.sh```
-- This script will then create, according to the input folder name, a directory to store all the ROOT files, will merge them and then create a directory with all the plots 
+- Create a folder where you will transfer all the ```.lhe``` files that you want to process.
+- Run ```./batch_convert.sh [DIRECTORY]``` where the [DIRECTORY] is the argument for the input folder.
+- This script will then create, according to the input folder name, a directory to store all the ROOT files, will merge them and then create a directory with all the plots.
