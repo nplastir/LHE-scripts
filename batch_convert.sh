@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# Specify the path to the directory containing your LHE files
-input_directory="/path/to/your/lhe/files"
+# Check if the input directory is provided as a command-line argument
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <input_directory>"
+    exit 1
+fi
+
+input_directory="$1"
 
 # Extract the name of the input directory
 input_directory_name=$(basename "${input_directory}")
