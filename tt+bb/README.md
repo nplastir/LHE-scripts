@@ -24,7 +24,7 @@ If you want to run it for multiple files, use the corresponding bash script:
 
 ## Overlay 
 
-The above scripts, other than the plots(in both `.png` and `.pdf` format), create also a ROOT file that contains all the histograms in a tree. Using this file we can further process it and overlay it with others in order to compare different settings and etc. For this purpose the `ratio_[CHANNEL].py` scripts have been created. In order to use them, simply run:
+The above scripts, other than the plots (in both `.png` and `.pdf` format), create also a ROOT file that contains all the histograms in a tree. Using this file we can further process it and overlay it with others in order to compare different settings and etc. For this purpose the `ratio_[CHANNEL].py` scripts have been created. In order to use them, simply run:
 ```
 python3 ratio_[CHANNEL].py
 ```
