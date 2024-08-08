@@ -37,3 +37,7 @@ If you have multiple files that you want to convert into ROOT files:
 - Create a folder where you will transfer all the ```.lhe``` files that you want to process.
 - Run ```./batch_convert.sh [DIRECTORY]``` where the [DIRECTORY] is the argument for the input folder.
 - This script will then create, according to the input folder name, a directory to store all the ROOT files, will merge them and then create a directory with all the plots.
+
+## Info
+
+The script `LHEplots.py`is a very simple script that plots only the basic variables from the LHE file. For more complex examples, refer to the scripts inside the `tt+bb` folder, which contain scripts for the three decay channels of the tt+bb process.
